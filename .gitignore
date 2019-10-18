@@ -18,12 +18,13 @@ target/
 *.iws
 *.iml
 *.ipr
-
+*.log
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
+/indexpath/
 /.nb-gradle/
 build/
 

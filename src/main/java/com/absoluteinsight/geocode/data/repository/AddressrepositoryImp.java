@@ -143,8 +143,8 @@ public class AddressrepositoryImp {
     {
     	try
     	{
-		    //FullTextEntityManager fullTextEntityManager = Search.getFullTextEntityManager(em);
-		    //fullTextEntityManager.createIndexer().startAndWait();
+		    FullTextEntityManager fullTextEntityManager = Search.getFullTextEntityManager(em);
+		    fullTextEntityManager.createIndexer().startAndWait();
 		    logger.info("Indexing completed");
     	}
     	catch(Exception e) {
