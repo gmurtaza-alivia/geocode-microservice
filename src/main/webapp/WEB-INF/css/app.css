@@ -1,0 +1,19 @@
+
+.login-container {
+    margin-top: 100px;
+    width: 500px;
+    position: absolute;
+}
+
+.login-card {
+   // width: 80%;
+    margin: auto;
+}
+
+.form-group {
+    padding: 10%;
+}
+
+.authbar{
+	margin-bottom:15px;
+}
